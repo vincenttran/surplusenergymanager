@@ -1,6 +1,6 @@
 {
 	"name":"Surplusenergymanager",
-	"thumbnail":"Surplusenergymanager.png",
+	"thumbnail":"surplusenergymanager.png",
 	"templateType":"standard",
 	"pageTypes": ["home"],
     "tags": {
