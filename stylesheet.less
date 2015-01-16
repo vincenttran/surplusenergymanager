@@ -367,6 +367,9 @@ footer .footer2 .columns-two-right {
     letter-spacing: @font-swatch8-letter-spacing;
     padding-bottom:0;
     max-width: 60%;
+    @media @mobile {
+      max-width: 60%;
+    }
 }
 
 /* FEATURE STRAPLINE */
@@ -379,6 +382,9 @@ footer .footer2 .columns-two-right {
     color: @font-swatch9-color;
     letter-spacing: @font-swatch9-letter-spacing;
     max-width: 60%;
+    @media @mobile {
+      max-width: 60%;
+    }
 }
 
 /* ===============================
@@ -501,13 +507,13 @@ button.btn,
     color: @font-swatch7-color;
     letter-spacing: @font-swatch7-letter-spacing;
     background-color: @font-swatch7-background-color;
-    padding: 5px 30px;
+    padding: 6px 30px;
     margin: 0;
     text-decoration: none;
-	outline: none;
--webkit-box-shadow: 4px 4px 0px 0px rgba(219,219,219,0.6);
--moz-box-shadow: 4px 4px 0px 0px rgba(219,219,219,0.6);
-box-shadow: 4px 4px 0px 0px rgba(219,219,219,0.6);
+	  outline: none;
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(219,219,219,0.6);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(219,219,219,0.6);
+    box-shadow: 4px 4px 0px 0px rgba(219,219,219,0.6);
 	&:hover {
 	    background-color: @font-swatch7-background-color-hover;
 	    cursor: pointer;
@@ -1689,6 +1695,7 @@ select {
 
     .widget.feature .feature-bgimg {
         height: 220px;
+        background-position: center left 60%!important;
     }
 
     .widget.feature .content {

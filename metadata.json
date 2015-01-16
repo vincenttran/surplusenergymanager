@@ -64,7 +64,7 @@
             "font-weight": "500",
             "line-height": "34px",
             "color": "@color-swatch4",
-            "letter-spacing": "inherit"
+            "letter-spacing": "1px"
         },
         "font2": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
@@ -72,7 +72,7 @@
             "font-weight": "inherit",
             "line-height": "32px",
             "color": "@color-swatch4",
-            "letter-spacing": "inherit"
+            "letter-spacing": "1px"
         },
         "font3": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
@@ -80,7 +80,7 @@
             "font-weight": "inherit",
             "line-height": "28px",
             "color": "@color-swatch4",
-            "letter-spacing": "inherit"
+            "letter-spacing": "1px"
         },
         "font4": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
@@ -88,19 +88,19 @@
             "font-weight": "300",
             "line-height": "28px",
             "color": "@color-swatch4",
-            "letter-spacing": "2px"
+            "letter-spacing": "1px"
         },
         "font5": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "14px",
-            "font-weight": "500",
+            "font-size": "16px",
+            "font-weight": "300",
             "line-height": "28px",
             "color": "@color-swatch5",
             "letter-spacing": "inherit"
         },
         "font6": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "12px",
+            "font-size": "14px",
             "font-weight": "400",
             "line-height": "28px",
             "color": "@color-swatch6",
@@ -111,8 +111,8 @@
         },
         "font7": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "12px",
-            "font-weight": "inherit",
+            "font-size": "16px",
+            "font-weight": "300",
             "line-height": "26px",
             "color": "@color-swatch1",
             "letter-spacing": "0px",
@@ -125,7 +125,7 @@
             "font-weight": "700",
             "line-height": "42px",
             "color": "@color-swatch4",
-            "letter-spacing": "inherit"
+            "letter-spacing": "1px"
         },
         "font9": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
