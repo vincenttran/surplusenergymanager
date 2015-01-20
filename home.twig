@@ -26,22 +26,17 @@
         <div class="responsivecolumns columns-three-33-34-33">
             <div class="column columns-three-left">
                 {{widget('content', 'footercolumn1content1', {"content":'<h4>LOREM IPSUM</h4>'})|raw}}
-
-                {% if profile.companydescription|length > 0 %}  
-                   {{widget('profile', 'footercolumn1profilecompanydescription', { 'profileType':'companydescription', 'companydescription':'profile'})|raw}}
-                {% else %}
-                    {{widget('content', 'footercolumn1content2', {"content":'<p>Integer a Tortor dui nullam nec antemi morbi sodales urna sit amet mauris.</p>'})|raw}}
-                {% endif %}
-
+                {{widget('content', 'sales', {content: 'This is a content widget.', lines: 'all'})|raw}}
             </div>
             <div class="column columns-three-middle">
                 {{widget('content', 'footercolumn2content1', {"content":'<h4>THOATES ORA</h4>'})|raw}}
-                {{widget('profile', 'footercolumn2profileemail', { 'profileType':'phone', 'phone':'profile'})|raw}}
-                {{widget('profile', 'footercolumn2profilephone', { 'profileType':'email', 'email':'profile'})|raw}}
+                {{widget('profile', 'footercolumn2profilephone', { 'profileType':'phone', 'phone':'profile'})|raw}}
+                {{widget('profile', 'footercolumn2profileemail', { 'profileType':'email', 'email':'profile'})|raw}}
+                {{widget('profile', 'footercolumn2profileemail1', { 'profileType':'email', 'email':'profile'})|raw}}
             </div>
             <div class="column columns-three-right">
                 {{widget('content', 'footercolumn3content1', {"content":'<h4>SOLADES</h4>'})|raw}}
-                {{widget('profile', 'footercolumn3profileaddress', { 'profileType':'address', 'address':'profile'})|raw}}
+                {{widget('content', 'solarpanelinstaller', {content: 'This is a content widget.', lines: 'all'})|raw}}
             </div>
         </div>
     </div>
