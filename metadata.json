@@ -102,7 +102,7 @@
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "14px",
             "font-weight": "400",
-            "line-height": "28px",
+            "line-height": "22px",
             "color": "@color-swatch6",
             "color-hover": "@color-swatch4",
             "letter-spacing": "1px",
